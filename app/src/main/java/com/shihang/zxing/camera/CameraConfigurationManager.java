@@ -66,6 +66,7 @@ public final class CameraConfigurationManager {
 		Point theScreenResolution = new Point();
 		theScreenResolution = getDisplaySize(display);
 
+
 		screenResolution = theScreenResolution;
 		Log.i(TAG, "Screen resolution: " + screenResolution);
 
